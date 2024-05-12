@@ -1,6 +1,6 @@
 <header>
 	<nav
-		class="flex flex-col md:flex-row items-center justify-around py-2 bg-blue-4 bg-cover bg-center"
+		class="flex flex-col md:flex-row items-center justify-around py-2 bg-cover bg-center"
 		style="background-image: url('/bg-fundo-mar.jpeg');"
 	>
 		<div class="mb-2 md:mb-0">

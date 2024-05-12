@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<footer class="flex flex-col md:flex-row justify-around bg-gray-300 px-4 pb-10">
+<footer class="flex flex-col md:flex-row justify-around bg-gray-100 px-4 pb-10">
 	<div class="my-4">
 		<!-- logo and company name -->
 		<div class="mb-4">
