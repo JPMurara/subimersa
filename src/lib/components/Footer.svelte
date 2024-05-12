@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<footer class="flex flex-col md:flex-row justify-around bg-gray-100 px-4 pb-10">
+<footer class="flex flex-col md:flex-row justify-around bg-gray-200 px-4 pb-10">
 	<div class="my-4">
 		<!-- logo and company name -->
 		<div class="mb-4">
@@ -25,7 +25,7 @@
 					</p>
 				</div>
 				<div class="my-1">
-					<p class="font-semibold">email: <a href="mailto:email@email.com">email@email.com</a></p>
+					<p class="font-semibold">Email: <a href="mailto:email@email.com">email@email.com</a></p>
 				</div>
 				<div class="my-1">
 					<p class="font-semibold">
