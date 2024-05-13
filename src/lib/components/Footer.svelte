@@ -1,5 +1,6 @@
 <script>
 	import Icon from '@iconify/svelte';
+	import constants from '$lib/constants.json';
 </script>
 
 <footer class="flex flex-col md:flex-row justify-around bg-gray-200 px-4 pb-10">
@@ -12,7 +13,7 @@
 					alt="subimersa logo"
 					class="w-32 rounded-full hidden md:block"
 				/>
-				<h1 class="font-poetsen-one">SUBIMERSA Curso de Pesca Submarina</h1>
+				<h1 class="font-poetsen-one">{constants.name_long}</h1>
 			</a>
 		</div>
 
@@ -21,15 +22,19 @@
 			<div class="flex flex-col">
 				<div class="my-1">
 					<p class="font-semibold">
-						Telefone: <a href="tel:0424424424" title="ligue para subimersa">0424424424</a>
+						Telefone: <a href="tel:{constants.telephone}" title="ligue para subimersa"
+							>{constants.telephone}</a
+						>
 					</p>
 				</div>
 				<div class="my-1">
-					<p class="font-semibold">Email: <a href="mailto:email@email.com">email@email.com</a></p>
+					<p class="font-semibold">
+						Email: <a href="mailto:{constants.email}">{constants.email}</a>
+					</p>
 				</div>
 				<div class="my-1">
 					<p class="font-semibold">
-						Certificação: <a href="https://www.cmas.org/" title="certificado cmas" target="_blank"
+						Certificação: <a href={constants.cmas} title="certificado cmas" target="_blank"
 							>CMAS reg. MPS/22/0015</a
 						>
 					</p>
@@ -37,23 +42,17 @@
 				<hr />
 				<div class="flex items-center justify-evenly my-2">
 					<div>
-						<a
-							href="https://www.instagram.com/subimersa/"
-							title="Subimersa Instagram"
-							target="_blank"
-						>
+						<a href={constants.instagram} title="Subimersa Instagram" target="_blank">
 							<Icon icon="mdi:instagram" class="text-6xl" />
 						</a>
 					</div>
 					<div>
-						<a
-							href="https://www.facebook.com/p/Subimersa-100067130615379/"
-							title="Subimersa Facebook"
-							target="_blank"><Icon icon="ic:baseline-facebook" class="text-6xl" /></a
+						<a href={constants.facebook} title="Subimersa Facebook" target="_blank"
+							><Icon icon="ic:baseline-facebook" class="text-6xl" /></a
 						>
 					</div>
 					<div>
-						<a href="https://imersastore.lojazap.com/" title="Imersa Store" target="_blank" class=""
+						<a href={constants.online_store} title="Imersa Store" target="_blank" class=""
 							><img src="logo-imersa-store-removebg.png" alt="logo imersa loja" class="h-24" /></a
 						>
 					</div>
@@ -67,7 +66,7 @@
 		<a href="/sobre" title="Sobre">Sobre</a>
 		<a href="/cursos" title="Cursos">Cursos</a>
 		<a href="/contato" title="Contato">Contato</a>
-		<a href="https://imersastore.lojazap.com/" target="_blank" title="Imersa Store">Imersa Store</a>
+		<a href={constants.online_store} target="_blank" title="Imersa Store">Imersa Store</a>
 		<a href="/termos-condicoes" title="Termos e Condicoes">Termos e Condicoes</a>
 		<a href="/privacidade" title="Seguranca e Privacidade">Seguranca e Privacidade</a>
 	</div>

@@ -1,3 +1,7 @@
+<script>
+	import constants from '$lib/constants.json';
+</script>
+
 <header class="sticky top-0">
 	<nav
 		class="flex flex-col md:flex-row items-center justify-around py-2 bg-cover bg-center"
@@ -14,6 +18,7 @@
 			<a href="/sobre">Sobre</a>
 			<a href="/cursos">Cursos</a>
 			<a href="/contato">Contato</a>
+			<a href={constants.online_store}>Loja Virtual</a>
 		</div>
 	</nav>
 </header>
