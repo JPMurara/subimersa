@@ -1,4 +1,4 @@
-<header>
+<header class="sticky top-0">
 	<nav
 		class="flex flex-col md:flex-row items-center justify-around py-2 bg-cover bg-center"
 		style="background-image: url('/bg-fundo-mar.jpeg');"
