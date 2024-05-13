@@ -18,7 +18,7 @@
 				</h2>
 				<p class="mb-8 font-light lg:text-xl">
 					Aqui vai uma breve descricao sobre vc e a subimersa, bem resumida, ha uma pagina 'sobre'
-					onde vc pode escrever em detalhes
+					onde voce pode escrever em detalhes.
 				</p>
 				<p class="mb-8 font-light lg:text-xl">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis blanditiis
