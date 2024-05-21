@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+	@apply tracking-tight lg:text-xl !important;
+}
+
+h2 {
+	@apply text-4xl tracking-tight font-extrabold text-gray-900 !important;
+}

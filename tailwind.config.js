@@ -1,21 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
-  theme: {
-    extend: {
-      fontFamily: {
-        'poetsen-one': ['Poetsen One', 'sans-serif'],
-        // Add other custom font families here
-      },
-      colors: {
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+	theme: {
+		extend: {
+			fontFamily: {
+				'poetsen-one': ['Poetsen One', 'sans-serif']
+				// Add other custom font families here
+			},
+			colors: {
 				blue: {
 					1: ' #026891',
 					2: '#afd6e6',
 					3: '#19a9d1',
-					4: '#afd6e6'
+					4: '#afd6e6',
+					5: ' #bad9e9',
+					6: '#cfe5f3'
 				}
-    }
-  },
-  plugins: [require('@tailwindcss/typography'),]
-}
-}
+			}
+		},
+		plugins: [require('@tailwindcss/typography')]
+	}
+};
