@@ -9,7 +9,7 @@
 	>
 		<div class="mb-2 md:mb-0">
 			<a href="/" class="flex items-center gap-4 md:gap-8">
-				<img src="/logo.jpg" alt="subimersa logo" class="w-24 rounded-full" />
+				<img src="/bw-logo.svg" alt="subimersa logo" class="w-24" />
 				<h1 class="font-poetsen-one">SUBIMERSA Curso de Pesca Submarina</h1>
 			</a>
 		</div>
