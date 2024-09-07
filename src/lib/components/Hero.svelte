@@ -4,14 +4,18 @@
 			<h1
 				class="max-w-2xl mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
 			>
-				Curso de Pesca em Apneia
+				Curso de Pesca Subaquática em Apneia!
 			</h1>
+			<p
+				class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-3xl lg:text-4xl dark:text-gray-400"
+			>
+				Aprenda a arte da Pesca Sub e mergulhe fundo nessa Aventura!
+			</p>
 			<p
 				class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-lg lg:text-xl dark:text-gray-400"
 			>
-				Aprenda a mergulhar e caçar de forma sustentável com instrutores experientes em um ambiente
-				seguro e amigável. Nossos cursos são adequados para todos os níveis, desde iniciantes até
-				avançados.
+				Descubra a emoção da pesca mais Radical e Sustentável conectando-se com a natureza
+				subaquática de uma forma única
 			</p>
 			<div class="flex justify-center lg:justify-start gap-8 lg:gap-4">
 				<a

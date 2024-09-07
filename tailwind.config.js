@@ -5,7 +5,6 @@ export default {
 		extend: {
 			fontFamily: {
 				'poetsen-one': ['Poetsen One', 'sans-serif']
-				// Add other custom font families here
 			},
 			colors: {
 				blue: {
@@ -18,6 +17,7 @@ export default {
 				}
 			}
 		},
-		plugins: [require('@tailwindcss/typography')]
+		plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')],
+		content: ['.node_modules/@flowbite/**/*.js']
 	}
 };

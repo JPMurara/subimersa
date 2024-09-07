@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 p {
-	@apply tracking-tight lg:text-xl !important;
+	@apply tracking-tight lg:text-xl;
 }
 
 h2 {
