@@ -1,10 +1,10 @@
-<section class="bg-gray-100">
+<section class="">
 	<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 		<div class="mx-auto max-w-screen-sm text-center">
 			<h1
 				class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white"
 			>
-				Sobre
+				Sobre a SUBIMERSA
 			</h1>
 		</div>
 	</div>
