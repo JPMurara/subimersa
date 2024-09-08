@@ -9,3 +9,7 @@ p {
 h2 {
 	@apply text-4xl tracking-tight font-extrabold text-gray-900 !important;
 }
+
+ul {
+	@apply list-disc;
+}
