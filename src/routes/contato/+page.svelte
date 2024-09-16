@@ -1,5 +1,5 @@
 <section>
 	<div>
-		<p>this is a sample page</p>
+		<p>this is a sample page.</p>
 	</div>
 </section>
