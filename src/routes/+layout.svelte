@@ -3,6 +3,6 @@
 	import { Navbar, Footer } from '$lib/components';
 </script>
 
-<Navbar />
+<!-- <Navbar /> -->
 <slot />
 <Footer />

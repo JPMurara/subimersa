@@ -3,29 +3,39 @@
 
 	const services = [
 		{
-			title: 'Lorem ipsum dolor sit ame',
-			subtitle: 'Curso de Pesca Sub',
+			title: 'Cursos',
+			subtitle: 'Curso Completo de Pesca Sub',
 			link: '/cursos'
 		},
 		{
-			title: 'Atividades Subaquaticas',
-			subtitle: 'Curso de Apneia para Surfistas',
+			title: 'Cursos',
+			subtitle: 'Curso Apneia - Surf e Atividades Subaquáticas',
 			link: '/cursos'
 		},
 		{
-			title: 'Lorem ipsum dolor sit ame',
-			subtitle: 'Treinamento em Piscina',
+			title: 'Cursos',
+			subtitle: 'Curso Deep Master - Pesca Profunda',
 			link: '/cursos'
 		},
 		{
-			title: 'Lorem ipsum dolor sit ame',
-			subtitle: 'Saidas para o mar',
-			link: ''
+			title: 'Cursos',
+			subtitle: 'Curso - Preparacao Física e Mental',
+			link: '/cursos'
 		},
 		{
-			title: 'Loja Online',
+			title: 'Cursos',
+			subtitle: 'Curso - Equipamentos e Preparação',
+			link: '/cursos'
+		},
+		{
+			title: 'Loja Virtual',
 			subtitle: 'Venda de Equipamentos',
 			link: 'https://imersastore.lojazap.com/'
+		},
+		{
+			title: 'Contato',
+			subtitle: 'Trips de Pesca',
+			link: '/contato'
 		}
 	];
 </script>

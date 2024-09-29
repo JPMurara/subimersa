@@ -1,3 +1,8 @@
+<script>
+	import Navbar from '$lib/components/Navbar.svelte';
+</script>
+
+<Navbar />
 <section class="">
 	<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 		<div class="mx-auto max-w-screen-sm text-center">

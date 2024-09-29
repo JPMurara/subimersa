@@ -8,7 +8,11 @@
 		<!-- logo and company name -->
 		<div class="mb-4">
 			<a href="/" class="flex items-center gap-4 md:gap-8">
-				<img src="/bw-logo.svg" alt="subimersa logo" class="w-32 rounded-full hidden md:block" />
+				<img
+					src="/logo-removebg.png"
+					alt="subimersa logo"
+					class="w-32 rounded-full hidden md:block"
+				/>
 				<h1 class="font-poetsen-one">{constants.name_long}</h1>
 			</a>
 		</div>
