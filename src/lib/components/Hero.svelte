@@ -27,18 +27,14 @@
 				class="mr-auto place-self-center text-center lg:text-left lg:col-span-7 lg:pl-4 pt-0 lg:-mt-20"
 			>
 				<h1
-					class="max-w-2xl mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+					class="max-w-2xl mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl"
 				>
 					Curso de Pesca Subaquática em Apneia
 				</h1>
-				<p
-					class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-3xl lg:text-4xl dark:text-gray-400"
-				>
+				<p class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-3xl lg:text-4xl">
 					Aprenda a arte da Pesca Sub e mergulhe fundo nessa Aventura!
 				</p>
-				<p
-					class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-lg lg:text-xl dark:text-gray-400"
-				>
+				<p class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-lg lg:text-xl">
 					Descubra a emoção da pesca mais Radical e Sustentável conectando-se com a natureza
 					subaquática de uma forma única
 				</p>
@@ -47,21 +43,21 @@
 					<a
 						href="/cursos"
 						title="Cursos"
-						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 bg-blue-3"
+						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 bg-blue-3"
 					>
 						Cursos
 					</a>
 					<a
 						href="/contato"
 						title="Contato"
-						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 bg-blue-3"
+						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 bg-blue-3"
 					>
 						Contato
 					</a>
 					<a
 						href="/agenda"
 						title="Agenda"
-						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 bg-blue-3"
+						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 bg-blue-3"
 					>
 						Agenda
 					</a>
