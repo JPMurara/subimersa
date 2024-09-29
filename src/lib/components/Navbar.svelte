@@ -9,7 +9,7 @@
 	>
 		<div class="mb-2 md:mb-0">
 			<a href="/" class="flex items-center gap-4 md:gap-8">
-				<img src="/bw-logo.svg" alt="subimersa logo" class="w-24" />
+				<img src="/logo-removebg.png" alt="subimersa logo" class="w-24" />
 				<h1 class="font-poetsen-one">SUBIMERSA Curso de Pesca Submarina</h1>
 			</a>
 		</div>
@@ -18,7 +18,7 @@
 			<a href="/sobre">Sobre</a>
 			<a href="/cursos">Cursos</a>
 			<a href="/contato">Contato</a>
-			<a href={constants.online_store}>Loja Virtual</a>
+			<a href={constants.online_store} target="_blank">Loja Virtual</a>
 		</div>
 	</nav>
 </header>

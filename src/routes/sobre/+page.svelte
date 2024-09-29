@@ -1,22 +1,23 @@
+<script>
+	import Navbar from '$lib/components/Navbar.svelte';
+</script>
+
+<Navbar />
 <section class="">
 	<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 		<div class="mx-auto max-w-screen-sm text-center">
-			<h1
-				class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white"
-			>
+			<h1 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900">
 				Sobre a SUBIMERSA
 			</h1>
 		</div>
 	</div>
 </section>
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white">
 	<div
 		class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
 	>
-		<div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-				Nosso Instrutor
-			</h2>
+		<div class="font-light text-gray-500 sm:text-lg">
+			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Nosso Instrutor</h2>
 			<p class="mb-4">
 				Com mais de 20 anos de experiência em Pesca Subaquática em Apneia, sou um entusiasta
 				dedicado e apaixonado por essa modalidade. Ao longo dos anos, tive a oportunidade de
@@ -41,8 +42,8 @@
 		<div>
 			<img class="w-full rounded-lg" src="https://placehold.co/600x400" alt="office content 1" />
 		</div>
-		<div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+		<div class="font-light text-gray-500 sm:text-lg">
+			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
 				Durante minha trajetória, acumulei títulos importantes:
 			</h2>
 			<ul class="list-disc">

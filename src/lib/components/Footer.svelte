@@ -1,6 +1,11 @@
 <script>
 	import Icon from '@iconify/svelte';
 	import constants from '$lib/constants.json';
+	import { openWhatsApp } from '../../utils/whatsappUtils';
+
+	function handleClick() {
+		openWhatsApp();
+	}
 </script>
 
 <footer class="flex flex-col md:flex-row justify-around bg-gray-200 px-4 pb-10">
@@ -8,7 +13,11 @@
 		<!-- logo and company name -->
 		<div class="mb-4">
 			<a href="/" class="flex items-center gap-4 md:gap-8">
-				<img src="/bw-logo.svg" alt="subimersa logo" class="w-32 rounded-full hidden md:block" />
+				<img
+					src="/logo-removebg.png"
+					alt="subimersa logo"
+					class="w-32 rounded-full hidden md:block"
+				/>
 				<h1 class="font-poetsen-one">{constants.name_long}</h1>
 			</a>
 		</div>
@@ -17,17 +26,20 @@
 		<div class="max-w-sm">
 			<div class="flex flex-col">
 				<div class="my-1">
-					<p class="font-semibold">
-						Telefone: <a href="tel:{constants.telephone}" title="ligue para subimersa"
-							>{constants.telephone}</a
-						>
-					</p>
+					<button
+						on:click={handleClick}
+						title="Contato via WhatsApp"
+						class="font-semibold tracking-tight lg:text-xl flex items-center"
+					>
+						Contato via WhatsApp
+						<Icon icon="logos:whatsapp-icon" class="text-2xl ml-2" />
+					</button>
 				</div>
-				<div class="my-1">
+				<!-- <div class="my-1">
 					<p class="font-semibold">
 						Email: <a href="mailto:{constants.email}">{constants.email}</a>
 					</p>
-				</div>
+				</div> -->
 				<div class="my-1">
 					<p class="font-semibold">
 						Certificação: <a href={constants.cmas} title="certificado cmas" target="_blank"
@@ -59,10 +71,11 @@
 
 	<!-- site map -->
 	<div class="flex flex-col gap-8 font-poetsen-one justify-center">
-		<a href="/sobre" title="Sobre">Sobre</a>
-		<a href="/cursos" title="Cursos">Cursos</a>
-		<a href="/contato" title="Contato">Contato</a>
-		<a href={constants.online_store} target="_blank" title="Imersa Store">Imersa Store</a>
+		<a href="/sobre" title="Sobre {constants.name_long}">Sobre</a>
+		<a href="/cursos" title="NossosCursos">Cursos</a>
+		<button title="Contato via WhatsApp" on:click={handleClick} class="text-left">Contato</button>
+		<a href={constants.online_store} target="_blank" title="Conheça nossos Produtos">Imersa Store</a
+		>
 		<a href="/termos-condicoes" title="Termos e Condicoes">Termos e Condicoes</a>
 		<a href="/privacidade" title="Seguranca e Privacidade">Seguranca e Privacidade</a>
 	</div>

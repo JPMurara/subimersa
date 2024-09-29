@@ -1,27 +1,27 @@
 <script>
 	import { Button, Modal } from 'flowbite-svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 	let firstModal = false;
 	let secondModal = false;
 	let thirdModal = false;
 </script>
 
+<Navbar />
 <section class="">
 	<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 		<div class="mx-auto max-w-screen-sm text-center">
-			<h1
-				class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white"
-			>
+			<h1 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900">
 				Nossos Cursos
 			</h1>
 		</div>
 	</div>
 </section>
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white">
 	<div
 		class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
 	>
-		<div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+		<div class="font-light text-gray-500 sm:text-lg">
+			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
 				Curso Completo de Pesca Subaquática em Apneia
 			</h2>
 			<p class="mb-4">
@@ -87,8 +87,8 @@
 		<div>
 			<img class="w-full rounded-lg" src="https://placehold.co/600x400" alt="office content 1" />
 		</div>
-		<div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+		<div class="font-light text-gray-500 sm:text-lg">
+			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
 				Prática em Piscina e no Seco
 			</h2>
 			<p class="mb-4">
@@ -122,8 +122,8 @@
 	<div
 		class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
 	>
-		<div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+		<div class="font-light text-gray-500 sm:text-lg">
+			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
 				Prática em Mar Aberto
 			</h2>
 			<p class="mb-4">
