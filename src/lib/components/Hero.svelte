@@ -1,5 +1,10 @@
 <script>
 	import constants from '$lib/constants.json';
+	import { openWhatsApp } from '../../utils/whatsappUtils';
+
+	function handleClick() {
+		openWhatsApp();
+	}
 </script>
 
 <div class="bg-cover bg-center" style="background-image: url('/bg-fundo-mar.jpeg');">
@@ -13,10 +18,10 @@
 			</div>
 
 			<div class="flex gap-8 font-poetsen-one mb-1 md:mb-0">
-				<a href="/sobre">Sobre</a>
-				<a href="/cursos">Cursos</a>
-				<a href="/contato">Contato</a>
-				<a href={constants.online_store}>Loja Virtual</a>
+				<a href="/sobre" title="Sobre {constants.name_long}">Sobre</a>
+				<a href="/cursos" title="Nossos Cursos">Cursos</a>
+				<button on:click={handleClick} title="Contato via WhatsApp">Contato</button>
+				<a href={constants.online_store} title="Conheça nossos Produtos">Loja Virtual</a>
 			</div>
 		</nav>
 	</header>
@@ -32,12 +37,10 @@
 					Curso de Pesca Subaquática em Apneia
 				</h1>
 				<p class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-3xl lg:text-4xl">
-					Aprenda a arte da Pesca Sub e mergulhe fundo nessa Aventura!
-				</p>
-				<p class="max-w-2xl mb-6 font-semibold text-gray-600 lg:mb-10 md:text-lg lg:text-xl">
 					Descubra a emoção da pesca mais Radical e Sustentável conectando-se com a natureza
 					subaquática de uma forma única
 				</p>
+
 				<!-- buttons -->
 				<div class="flex justify-center lg:justify-start gap-8 lg:gap-4">
 					<a
@@ -47,13 +50,13 @@
 					>
 						Cursos
 					</a>
-					<a
-						href="/contato"
+					<button
+						on:click={handleClick}
 						title="Contato"
 						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 bg-blue-3"
 					>
 						Contato
-					</a>
+					</button>
 					<a
 						href="/agenda"
 						title="Agenda"
