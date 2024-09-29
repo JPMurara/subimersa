@@ -1,39 +1,33 @@
 <script>
 	import Icon from '@iconify/svelte';
 
+	// services data
 	const services = [
 		{
-			title: 'Cursos',
 			subtitle: 'Curso Completo de Pesca Sub',
 			link: '/cursos'
 		},
 		{
-			title: 'Cursos',
 			subtitle: 'Curso Apneia - Surf e Atividades Subaquáticas',
 			link: '/cursos'
 		},
 		{
-			title: 'Cursos',
 			subtitle: 'Curso Deep Master - Pesca Profunda',
 			link: '/cursos'
 		},
 		{
-			title: 'Cursos',
 			subtitle: 'Curso - Preparacao Física e Mental',
 			link: '/cursos'
 		},
 		{
-			title: 'Cursos',
 			subtitle: 'Curso - Equipamentos e Preparação',
 			link: '/cursos'
 		},
 		{
-			title: 'Loja Virtual',
 			subtitle: 'Venda de Equipamentos',
 			link: 'https://imersastore.lojazap.com/'
 		},
 		{
-			title: 'Contato',
 			subtitle: 'Trips de Pesca',
 			link: '/contato'
 		}
@@ -60,10 +54,6 @@
 						class="flex justify-between items-center p-4 mb-6 bg-white rounded-lg border-l-8 shadow dark:bg-gray-800 dark:hover:bg-gray-700 border-blue-3 dark:border-primary-500 hover:bg-gray-50 max-w-md mx-auto"
 					>
 						<div>
-							<span
-								class="block mb-1 text-xs font-medium text-gray-500 uppercase dark:text-gray-400"
-								>{service.title}</span
-							>
 							<span class="text-xl font-semibold text-primary-600 dark:text-primary-500"
 								>{service.subtitle}</span
 							>
