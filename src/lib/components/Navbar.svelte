@@ -1,5 +1,10 @@
 <script>
 	import constants from '$lib/constants.json';
+	import { openWhatsApp } from '../../utils/whatsappUtils';
+
+	function handleClick() {
+		openWhatsApp();
+	}
 </script>
 
 <header class="sticky top-0">
@@ -15,10 +20,11 @@
 		</div>
 
 		<div class="flex gap-8 font-poetsen-one mb-1 md:mb-0">
-			<a href="/sobre">Sobre</a>
-			<a href="/cursos">Cursos</a>
-			<a href="/contato">Contato</a>
-			<a href={constants.online_store} target="_blank">Loja Virtual</a>
+			<a href="/sobre" title="Sobre {constants.name_long}">Sobre</a>
+			<a href="/cursos" title="Nossos Cursos">Cursos</a>
+			<button on:click={handleClick} title="Contato via WhatsApp">Contato</button>
+			<a href={constants.online_store} title="Conheça nossos Produtos">Loja Virtual</a>
 		</div>
+		>
 	</nav>
 </header>

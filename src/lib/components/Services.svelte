@@ -29,7 +29,7 @@
 		},
 		{
 			subtitle: 'Trips de Pesca',
-			link: '/contato'
+			link: ''
 		}
 	];
 </script>
