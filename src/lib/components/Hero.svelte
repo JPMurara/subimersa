@@ -13,11 +13,11 @@
 			<div class="mb-2 md:mb-0">
 				<a href="/" class="flex items-center gap-4 md:gap-8">
 					<img src="/logo-removebg.png" alt="subimersa logo" class="w-24" />
-					<h1 class="font-poetsen-one">SUBIMERSA Curso de Pesca Submarina</h1>
+					<p class="">Subimersa Curso de Pesca Submarina</p>
 				</a>
 			</div>
 
-			<div class="flex gap-8 font-poetsen-one mb-1 md:mb-0">
+			<div class="flex gap-8 mb-1 md:mb-0">
 				<a href="/sobre" title="Sobre {constants.name_long}">Sobre</a>
 				<a href="/cursos" title="Nossos Cursos">Cursos</a>
 				<button on:click={handleClick} title="Contato via WhatsApp">Contato</button>
