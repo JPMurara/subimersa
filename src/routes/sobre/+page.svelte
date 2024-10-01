@@ -54,7 +54,7 @@
 			<div>
 				<img
 					class="lg:w-9/12 rounded-lg ml-8 !mx-auto hidden lg:block"
-					src="subimersa_2.jpeg"
+					src="subimersa_trofeis.jpg"
 					alt="instrutor de pesca subaquática Thiago Barbi dos Reis exibindo seu trofeu"
 				/>
 			</div>
@@ -84,7 +84,7 @@
 		<div class="mb-8">
 			<img
 				class="w-9/12 md:w-6/12 lg:w-9/12 rounded-lg ml-8 !mx-auto lg:hidden"
-				src="subimersa_2.jpeg"
+				src="subimersa_trofeis.jpg"
 				alt="instrutor de pesca subaquática Thiago Barbi dos Reis exibindo seu trofeu"
 			/>
 		</div>
