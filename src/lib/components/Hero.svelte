@@ -57,23 +57,12 @@
 					>
 						Contato
 					</button>
-					<a
-						href="/agenda"
-						title="Agenda"
-						class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 bg-blue-3"
-					>
-						Agenda
-					</a>
 				</div>
 
 				<!-- logos -->
 				<div class="flex justify-center items-center lg:justify-start gap-8 pt-8">
 					<div class="max-w-20 lg:max-w-28 xl:max-w-32">
-						<img
-							src="/CBPDS.gif"
-							alt="Confederação Brasileira de Pesca e Desportos Subaquáticos"
-							class=""
-						/>
+						<img src="/CBPDS.gif" alt="Confederação Brasileira de Pesca e Desportos Subaquáticos" />
 					</div>
 					<div class="max-w-32 lg:max-w-48 xl:max-w-56">
 						<img src="/CMAS.png" alt="Confederacao Mundial de Atividades Subaquáticas" />

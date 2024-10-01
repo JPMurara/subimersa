@@ -35,11 +35,11 @@
 						<Icon icon="logos:whatsapp-icon" class="text-2xl ml-2" />
 					</button>
 				</div>
-				<!-- <div class="my-1">
+				<div class="my-1">
 					<p class="font-semibold">
 						Email: <a href="mailto:{constants.email}">{constants.email}</a>
 					</p>
-				</div> -->
+				</div>
 				<div class="my-1">
 					<p class="font-semibold">
 						Certificação: <a href={constants.cmas} title="certificado cmas" target="_blank"
