@@ -6,7 +6,7 @@
 <section class="">
 	<div class="mx-auto max-w-screen-xl pt-16">
 		<div class="mx-auto max-w-screen-sm text-center">
-			<h1 class="mb-4">Sobre a SUBIMERSA</h1>
+			<h1 class="mb-4">Sobre a Subimersa</h1>
 		</div>
 	</div>
 </section>
@@ -47,7 +47,9 @@
 		</div>
 	</div>
 	<div>
-		<h2 class="mb-4 mt-8 text-center">Durante minha trajetória, acumulei títulos importantes</h2>
+		<h2 class="mb-4 mt-8 text-left ml-4 md:ml-80">
+			Durante minha trajetória, acumulei títulos importantes
+		</h2>
 		<div
 			class="gap-16 items-center pb-8 pt-4 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pb-16 lg:px-6"
 		>
@@ -72,7 +74,7 @@
 					</li>
 				</ul>
 				<blockquote class="mt-4 px-6">
-					"Com essa vasta experiência, meu objetivo é continuar contribuindo para a comunidade de
+					"Com minha vasta experiência, meu objetivo é continuar contribuindo para a comunidade de
 					pesca subaquática e ajudar novos praticantes a descobrirem essa modalidade de maneira
 					responsável e apaixonada."
 				</blockquote>

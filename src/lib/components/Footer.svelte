@@ -18,7 +18,7 @@
 					alt="subimersa logo"
 					class="w-32 rounded-full hidden md:block"
 				/>
-				<h1 class="font-poetsen-one">{constants.name_long}</h1>
+				<h2 class="font-poetsen-one">{constants.name_long}</h2>
 			</a>
 		</div>
 

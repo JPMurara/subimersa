@@ -11,9 +11,13 @@ h1 {
 }
 
 h2 {
-	@apply text-2xl md:text-4xl tracking-tight font-extrabold text-gray-900 !important;
+	@apply text-xl md:text-3xl tracking-tight font-extrabold text-gray-900 !important;
 }
 
 ul {
 	@apply list-disc;
+}
+
+.button-action {
+	@apply inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-blue-1 focus:ring-4 focus:ring-gray-100 bg-blue-3 !important;
 }
