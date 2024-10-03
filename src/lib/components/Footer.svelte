@@ -18,7 +18,7 @@
 					alt="subimersa logo"
 					class="w-32 rounded-full hidden md:block"
 				/>
-				<h1 class="font-poetsen-one">{constants.name_long}</h1>
+				<h2 class="!text-3xl !font-semibold">{constants.name_long}</h2>
 			</a>
 		</div>
 
@@ -35,11 +35,11 @@
 						<Icon icon="logos:whatsapp-icon" class="text-2xl ml-2" />
 					</button>
 				</div>
-				<!-- <div class="my-1">
+				<div class="my-1">
 					<p class="font-semibold">
 						Email: <a href="mailto:{constants.email}">{constants.email}</a>
 					</p>
-				</div> -->
+				</div>
 				<div class="my-1">
 					<p class="font-semibold">
 						Certificação: <a href={constants.cmas} title="certificado cmas" target="_blank"
@@ -70,9 +70,9 @@
 	</div>
 
 	<!-- site map -->
-	<div class="flex flex-col gap-8 font-poetsen-one justify-center">
-		<a href="/sobre" title="Sobre {constants.name_long}">Sobre</a>
-		<a href="/cursos" title="NossosCursos">Cursos</a>
+	<div class="flex flex-col gap-8 justify-center font-semibold">
+		<a href="/sobre" title="Sobre {constants.name_short}">Sobre</a>
+		<a href="/cursos" title="Nossos Cursos">Cursos</a>
 		<button title="Contato via WhatsApp" on:click={handleClick} class="text-left">Contato</button>
 		<a href={constants.online_store} target="_blank" title="Conheça nossos Produtos">Imersa Store</a
 		>
