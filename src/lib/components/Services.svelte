@@ -38,18 +38,21 @@
 	<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
 		<div class="grid space-y-8 lg:grid-cols-2 lg:gap-12 lg:space-y-0">
 			<div class="flex flex-col items-center justify-center">
-				<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Nossos Servicos</h2>
+				<h2 class="mb-4">Nossos Servicos</h2>
 				<p class="mb-4 text-gray-500 sm:text-xl">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus maxime iusto tenetur
-					reiciendis, repellendus, obcaecati velit magni tempora exercitationem minima corrupti sunt
-					laborum ab. Quaerat necessitatibus quo aliquid cumque unde!
+					Oferecemos uma ampla variedade de cursos e atividades voltados para o mundo da pesca
+					subaquática e atividades relacionadas. Nossos treinamentos são desenvolvidos para garantir
+					que você se sinta preparado e seguro, tanto em águas profundas quanto em atividades
+					recreativas. Contamos com instrutores certificados e uma infraestrutura de qualidade, para
+					que você tenha a melhor experiência possível. Explore nossas opções e descubra como
+					podemos ajudar você a se tornar um especialista em pesca subaquática e apneia.
 				</p>
 			</div>
 			<div>
 				{#each services as service}
 					<a
 						href={service.link}
-						class="flex justify-between items-center p-4 mb-6 bg-white rounded-lg border-l-8 shadow border-blue-3 hover:bg-gray-50 max-w-md mx-auto"
+						class="flex justify-between items-center p-4 mb-6 bg-white rounded-lg border-l-8 shadow border-blue-3 hover:bg-gray-50 max-w-md mx-auto transform transition-transform duration-300 hover:scale-105"
 					>
 						<div>
 							<span class="text-xl font-semibold text-primary-600">{service.subtitle}</span>

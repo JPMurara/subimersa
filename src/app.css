@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-	@apply text-xl md:text-3xl tracking-tight font-extrabold text-gray-900 !important;
+	@apply text-3xl md:text-3xl tracking-tight font-extrabold text-gray-900 !important;
 }
 
 ul {
