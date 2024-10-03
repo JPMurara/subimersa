@@ -1,6 +1,6 @@
 <script>
 	import { Button, Modal } from 'flowbite-svelte';
-	import Navbar from '$lib/components/Navbar.svelte';
+	import { Navbar, Cta } from '$lib/components';
 	let firstModal = false;
 	let secondModal = false;
 	let thirdModal = false;
@@ -34,10 +34,11 @@
 			<Button on:click={() => (firstModal = true)} class="button-action">Saiba mais...</Button>
 			<Modal
 				title="Na primeira etapa do curso, sao explorados:"
+				class="overflow-y-auto max-h-screen"
 				bind:open={firstModal}
 				outsideclose
 			>
-				<ul class="pl-4">
+				<ul class="pl-4 pb-16">
 					<li>História de Pesca Sub</li>
 					<li>Legislação e licenças</li>
 					<li>Ética e Sustentabilidade do Esporte</li>
@@ -159,3 +160,4 @@
 		/>
 	</div>
 </section>
+<Cta />

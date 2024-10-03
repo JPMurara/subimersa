@@ -1,5 +1,5 @@
 <script>
-	import Navbar from '$lib/components/Navbar.svelte';
+	import { Navbar, Cta } from '$lib/components';
 </script>
 
 <Navbar />
@@ -92,3 +92,4 @@
 		</div>
 	</div>
 </section>
+<Cta />
