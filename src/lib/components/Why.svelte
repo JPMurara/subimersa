@@ -7,7 +7,7 @@
 		class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
 	>
 		<div>
-			<h2 class="mb-4 tracking-tight">Porque Contratar Nossos Servicos</h2>
+			<h2 class="mb-4">Porque Contratar Nossos Servicos</h2>
 			<p class="mb-4 font-semibold">
 				Nossos cursos de pesca subaquática e apneia são ideais para todos os níveis, combinando
 				teoria e prática, e proporcionando o conhecimento e a confiança para se destacar na água.
