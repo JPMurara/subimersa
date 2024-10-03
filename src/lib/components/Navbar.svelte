@@ -8,8 +8,8 @@
 </script>
 
 <header
-	class="sticky top-0 bg-cover bg-center"
-	style="background-image: url('/bg-fundo-mar.jpeg');"
+	class="sticky top-0 bg-cover"
+	style="background-image: url('/bg-fundo-mar.jpeg'); background-position: center 25%;"
 >
 	<nav class="flex flex-col xl:flex-row items-center justify-around py-2">
 		<div class="mb-2 md:mb-0">
