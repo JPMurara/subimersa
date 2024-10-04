@@ -6,3 +6,4 @@ export { default as Why } from './Why.svelte';
 export { default as About } from './About.svelte';
 export { default as Faq } from './Faq.svelte';
 export { default as Cta } from './Cta.svelte';
+export { default as Testimonials } from './Testimonials.svelte';
