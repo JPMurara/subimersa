@@ -18,29 +18,45 @@
 	];
 </script>
 
-<div class="carousel">
-	{#if videos.length > 0}
-		<div class="carousel-inner">
-			<video src={videos[currentIndex].video} controls autoplay loop controlslist="nodownload"
-			></video>
+<section>
+	<div
+		class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
+	>
+		<div>
+			<h2 class="mb-4">Veja o que nossos alunos falam sobre nós</h2>
+			<p class="mb-4 font-semibold text-gray-500">
+				Confira os depoimentos dos nossos alunos e veja como o curso transformou suas experiências
+				na pesca subaquática. Independentemente do nível, todos encontram no curso o suporte
+				necessário para aprimorar suas habilidades e viver essa aventura de forma segura.
+			</p>
+		</div>
+		<div class="gap-4 mt-8 carousel">
+			<div class="carousel-inner w-full">
+				<video
+					src={videos[currentIndex].video}
+					controls
+					autoplay
+					loop
+					controlslist="nodownload"
+					class="w-full h-auto object-cover rounded-lg"
+				>
+					<track kind="captions" />
+				</video>
+			</div>
 			<div
 				class="absolute bottom-20 left-4 text-white font-bold bg-black bg-opacity-50 px-4 py-2 rounded-lg"
 			>
 				Aluno: {videos[currentIndex].author}
 			</div>
+			<button class="prev" on:click={prevImage}>&#10094;</button>
+			<button class="next" on:click={nextImage}>&#10095;</button>
 		</div>
-
-		<button class="prev" on:click={prevImage}>&#10094;</button>
-		<button class="next" on:click={nextImage}>&#10095;</button>
-	{:else}
-		<p>No videos available at the moment.</p>
-	{/if}
-</div>
+	</div>
+</section>
 
 <style>
 	.carousel {
 		position: relative;
-		max-width: 600px;
 		margin: auto;
 		overflow: hidden;
 	}
@@ -49,12 +65,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 60%;
 	}
 
 	video {
 		width: 100%;
-		max-height: 400px;
-		object-fit: contain;
+		height: auto;
+		object-fit: cover;
 		border-radius: 10px;
 	}
 
@@ -63,8 +80,8 @@
 		cursor: pointer;
 		position: absolute;
 		top: 50%;
+		transform: translateY(-50%);
 		width: auto;
-		margin-top: -22px;
 		padding: 16px;
 		color: white;
 		font-weight: bold;
