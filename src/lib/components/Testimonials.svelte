@@ -21,8 +21,13 @@
 <div class="carousel">
 	{#if videos.length > 0}
 		<div class="carousel-inner">
-			<video src={videos[currentIndex].video} controls autoplay loop></video>
-			<div class="author">Testimonial by: {videos[currentIndex].author}</div>
+			<video src={videos[currentIndex].video} controls autoplay loop controlslist="nodownload"
+			></video>
+			<div
+				class="absolute bottom-20 left-4 text-white font-bold bg-black bg-opacity-50 px-4 py-2 rounded-lg"
+			>
+				Aluno: {videos[currentIndex].author}
+			</div>
 		</div>
 
 		<button class="prev" on:click={prevImage}>&#10094;</button>
@@ -49,7 +54,7 @@
 	video {
 		width: 100%;
 		max-height: 400px;
-		object-fit: cover;
+		object-fit: contain;
 		border-radius: 10px;
 	}
 
