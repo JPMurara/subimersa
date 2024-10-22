@@ -35,7 +35,6 @@
 				<video
 					src={videos[currentIndex].video}
 					controls
-					autoplay
 					loop
 					controlslist="nodownload"
 					class="w-full h-auto object-cover rounded-lg"
