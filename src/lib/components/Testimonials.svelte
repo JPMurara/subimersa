@@ -1,11 +1,22 @@
 <script>
 	let currentIndex = 0;
+	let videoElement; // Reference to the video element
 
 	function prevImage() {
+		// Pause the current video before switching
+		if (videoElement) {
+			videoElement.pause();
+		}
+		// Switch to the previous video
 		currentIndex = currentIndex === 0 ? videos.length - 1 : currentIndex - 1;
 	}
 
 	function nextImage() {
+		// Pause the current video before switching
+		if (videoElement) {
+			videoElement.pause();
+		}
+		// Switch to the next video
 		currentIndex = currentIndex === videos.length - 1 ? 0 : currentIndex + 1;
 	}
 
@@ -30,13 +41,18 @@
 				necessário para aprimorar suas habilidades e viver essa aventura de forma segura.
 			</p>
 		</div>
-		<div class="gap-4 mt-8 carousel">
+		<div class="gap-4 mt-8 carousel flex justify-center">
+			<button class="prev" on:click={prevImage}>&#10094;</button>
 			<div class="carousel-inner w-full">
+				<!-- Bind the video element to the videoElement variable -->
 				<video
+					bind:this={videoElement}
 					src={videos[currentIndex].video}
 					controls
-					loop
+					muted
+					autoplay
 					controlslist="nodownload"
+					playsinline
 					class="w-full h-auto object-cover rounded-lg"
 				>
 					<track kind="captions" />
@@ -47,60 +63,7 @@
 			>
 				Aluno: {videos[currentIndex].author}
 			</div>
-			<button class="prev" on:click={prevImage}>&#10094;</button>
 			<button class="next" on:click={nextImage}>&#10095;</button>
 		</div>
 	</div>
 </section>
-
-<style>
-	.carousel {
-		position: relative;
-		margin: auto;
-		overflow: hidden;
-	}
-
-	.carousel-inner {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 60%;
-	}
-
-	video {
-		width: 100%;
-		height: auto;
-		object-fit: cover;
-		border-radius: 10px;
-	}
-
-	.prev,
-	.next {
-		cursor: pointer;
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		width: auto;
-		padding: 16px;
-		color: white;
-		font-weight: bold;
-		font-size: 18px;
-		transition: 0.6s ease;
-		border: none;
-		background-color: rgba(0, 0, 0, 0.5);
-		border-radius: 50%;
-	}
-
-	.prev {
-		left: 0;
-	}
-
-	.next {
-		right: 0;
-	}
-
-	.prev:hover,
-	.next:hover {
-		background-color: rgba(0, 0, 0, 0.8);
-	}
-</style>
