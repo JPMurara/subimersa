@@ -59,12 +59,13 @@
 				>
 					<track kind="captions" />
 				</video>
+				<div
+					class="relative h-16 w-full bottom-28 md:bottom-32 right-0 text-white font-bold bg-black bg-opacity-60 px-4 py-5 rounded-lg"
+				>
+					Aluno: {videos[currentIndex].author}
+				</div>
 			</div>
-			<div
-				class="absolute bottom-20 left-4 text-white font-bold bg-black bg-opacity-50 px-4 py-2 rounded-lg"
-			>
-				Aluno: {videos[currentIndex].author}
-			</div>
+
 			<button
 				class="bg-gray-700 text-white rounded-full h-10 w-10 md:h-8 md:w-8 my-auto text-xl"
 				on:click={nextImage}>&#10095;</button
