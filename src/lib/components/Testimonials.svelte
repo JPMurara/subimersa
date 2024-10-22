@@ -42,9 +42,11 @@
 			</p>
 		</div>
 		<div class="gap-4 mt-8 carousel flex justify-center">
-			<button class="prev" on:click={prevImage}>&#10094;</button>
-			<div class="carousel-inner w-full">
-				<!-- Bind the video element to the videoElement variable -->
+			<button
+				class="bg-gray-700 text-white rounded-full h-10 w-10 md:h-8 md:w-8 my-auto text-xl"
+				on:click={prevImage}>&#10094;</button
+			>
+			<div class="carousel-inner w-7/12 md:w-4/12 xl:w-7/12">
 				<video
 					bind:this={videoElement}
 					src={videos[currentIndex].video}
@@ -63,7 +65,10 @@
 			>
 				Aluno: {videos[currentIndex].author}
 			</div>
-			<button class="next" on:click={nextImage}>&#10095;</button>
+			<button
+				class="bg-gray-700 text-white rounded-full h-10 w-10 md:h-8 md:w-8 my-auto text-xl"
+				on:click={nextImage}>&#10095;</button
+			>
 		</div>
 	</div>
 </section>
