@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="flex flex-col max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto rounded-xl m-6 py-6 bg-cover bg-center px-12"
+	class="flex flex-col lg:max-w-4xl xl:max-w-7xl mx-auto rounded-xl m-6 py-6 bg-cover bg-center px-12"
 	style="background-image: url('/bg-fundo-mar.jpeg');"
 >
 	<button
