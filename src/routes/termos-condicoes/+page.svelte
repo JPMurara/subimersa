@@ -1,6 +1,14 @@
 <script>
-	import Navbar from '$lib/components/Navbar.svelte';
+	import { Navbar, Head } from '$lib/components';
+
+	const meta = {
+		metaTitle: ' Termos e Condições | Subimersa',
+		metaDescription:
+			'Leia os Termos e Condições de uso do site e dos serviços da Subimersa. Entenda as regras e políticas que regem nossas operações e cursos.'
+	};
 </script>
+
+<Head data={meta}><title>{meta.metaTitle}</title></Head>
 
 <Navbar />
 <div

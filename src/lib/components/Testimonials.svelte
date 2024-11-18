@@ -31,7 +31,7 @@
 
 <section>
 	<div
-		class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
+		class="gap-16 items-center sm:py-8 sm:px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
 	>
 		<div>
 			<h2 class="mb-4">Veja o que nossos alunos falam sobre nós</h2>
@@ -43,7 +43,7 @@
 		</div>
 		<div class="gap-4 mt-8 carousel flex justify-center">
 			<button
-				class="bg-gray-700 text-white rounded-full h-10 w-10 md:h-8 md:w-8 my-auto text-xl"
+				class="bg-gray-700 text-white rounded-full sm:h-10 sm:w-10 md:h-8 md:w-8 my-auto text-xl"
 				on:click={prevImage}>&#10094;</button
 			>
 			<div class="carousel-inner w-7/12 md:w-4/12 xl:w-7/12">
@@ -54,8 +54,9 @@
 					muted
 					autoplay
 					controlslist="nodownload"
+					preload="auto"
 					playsinline
-					class="w-full h-auto object-cover rounded-lg"
+					class="w-full h-[34rem] object-cover rounded-lg"
 				>
 					<track kind="captions" />
 				</video>
