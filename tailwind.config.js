@@ -11,16 +11,15 @@ export default {
 			},
 			colors: {
 				blue: {
-					1: ' #026891',
+					1: '#026891',
 					2: '#afd6e6',
 					3: '#19a9d1',
 					4: '#afd6e6',
-					5: ' #bad9e9',
+					5: '#bad9e9',
 					6: '#cfe5f3'
 				}
 			}
-		},
-		plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')],
-		content: ['.node_modules/@flowbite/**/*.js']
-	}
+		}
+	},
+	plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')]
 };

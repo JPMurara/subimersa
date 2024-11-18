@@ -1,12 +1,10 @@
 <svelte:head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
-	<meta
-		name="viewport"
-		content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-	/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+	<link rel="icon" href="favicon.ico" />
+	<link rel="preload" href="/bg-fundo-mar.jpeg" as="image" />
 
 	<!-- <meta name="description" content={metaDescription} />
   <link rel="icon" href={favicon} sizes="" />
