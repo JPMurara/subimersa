@@ -1,7 +1,14 @@
 <script>
-	import { Navbar, Cta } from '$lib/components';
+	import { Navbar, Cta, Head } from '$lib/components';
+
+	const meta = {
+		metaTitle: 'Sobre a Subimersa | Mais de 20 Anos de Experiência em Pesca Submarina',
+		metaDescription:
+			'Conheça a história da Subimersa, uma referência em cursos de pesca submarina e apneia no Brasil. Aprenda com instrutores certificados e apaixonados pela prática.'
+	};
 </script>
 
+<Head data={meta}><title>{meta.metaTitle}</title></Head>
 <Navbar />
 <section class="">
 	<div class="mx-auto max-w-screen-xl pt-16">
