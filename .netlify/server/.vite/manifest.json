@@ -1,0 +1,182 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_Cta.js": {
+    "file": "chunks/Cta.js",
+    "name": "Cta",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_Frame.js": {
+    "file": "chunks/Frame.js",
+    "name": "Frame",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_Head.js": {
+    "file": "chunks/Head.js",
+    "name": "Head",
+    "imports": [
+      "_ssr.js",
+      "_functions.js"
+    ]
+  },
+  "_Icon.js": {
+    "file": "chunks/Icon.js",
+    "name": "Icon",
+    "imports": [
+      "_ssr.js",
+      "_functions.js"
+    ]
+  },
+  "_Navbar.js": {
+    "file": "chunks/Navbar.js",
+    "name": "Navbar",
+    "imports": [
+      "_ssr.js",
+      "_functions.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_functions.js": {
+    "file": "chunks/functions.js",
+    "name": "functions"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/+layout.server.ts": {
+    "file": "entries/pages/_layout.server.ts.js",
+    "name": "entries/pages/_layout.server.ts",
+    "src": "src/routes/+layout.server.ts",
+    "isEntry": true
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Icon.js",
+      "_functions.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.DqrGMOo4.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_functions.js",
+      "_Icon.js",
+      "_index.js",
+      "_Frame.js",
+      "_Cta.js",
+      "_Head.js"
+    ]
+  },
+  "src/routes/cursos/+page.svelte": {
+    "file": "entries/pages/cursos/_page.svelte.js",
+    "name": "entries/pages/cursos/_page.svelte",
+    "src": "src/routes/cursos/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Frame.js",
+      "_Navbar.js",
+      "_functions.js",
+      "_Cta.js",
+      "_Head.js"
+    ]
+  },
+  "src/routes/privacidade/+page.svelte": {
+    "file": "entries/pages/privacidade/_page.svelte.js",
+    "name": "entries/pages/privacidade/_page.svelte",
+    "src": "src/routes/privacidade/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Navbar.js",
+      "_functions.js",
+      "_Head.js"
+    ]
+  },
+  "src/routes/sobre/+page.svelte": {
+    "file": "entries/pages/sobre/_page.svelte.js",
+    "name": "entries/pages/sobre/_page.svelte",
+    "src": "src/routes/sobre/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Navbar.js",
+      "_functions.js",
+      "_Cta.js",
+      "_Head.js"
+    ]
+  },
+  "src/routes/termos-condicoes/+page.svelte": {
+    "file": "entries/pages/termos-condicoes/_page.svelte.js",
+    "name": "entries/pages/termos-condicoes/_page.svelte",
+    "src": "src/routes/termos-condicoes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Navbar.js",
+      "_functions.js",
+      "_Head.js"
+    ]
+  }
+}
