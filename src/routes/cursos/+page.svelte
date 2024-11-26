@@ -1,11 +1,19 @@
 <script>
 	import { Button, Modal } from 'flowbite-svelte';
-	import { Navbar, Cta } from '$lib/components';
+	import { Navbar, Cta, Head } from '$lib/components';
+
 	let firstModal = false;
 	let secondModal = false;
 	let thirdModal = false;
+
+	const meta = {
+		metaTitle: 'Cursos de Pesca Submarina e Apneia | Subimersa',
+		metaDescription:
+			'Descubra nossos cursos especializados em pesca submarina e apneia. Aprenda com instrutores experientes e domine técnicas de pesca subaquática com segurança.'
+	};
 </script>
 
+<Head data={meta}><title>{meta.metaTitle}</title></Head>
 <Navbar />
 <section>
 	<div class="mx-auto max-w-screen-xl pt-16">

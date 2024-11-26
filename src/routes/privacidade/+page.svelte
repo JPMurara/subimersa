@@ -1,7 +1,14 @@
 <script>
-	import Navbar from '$lib/components/Navbar.svelte';
+	import { Navbar, Head } from '$lib/components';
+
+	const meta = {
+		metaTitle: 'Política de Privacidade | Subimersa',
+		metaDescription:
+			'Saiba como a Subimersa protege seus dados pessoais e garante a segurança das suas informações. Leia nossa Política de Privacidade para entender nossos compromissos com você.'
+	};
 </script>
 
+<Head data={meta}><title>{meta.metaTitle}</title></Head>
 <Navbar />
 <div
 	class="flex flex-col max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto rounded-xl m-6 py-6 bg-cover bg-center px-12"

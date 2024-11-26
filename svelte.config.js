@@ -1,21 +1,14 @@
 import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
-import tailwindcss from 'tailwindcss';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: [
 		preprocess({
-			postcss: true
+			postcss: true // This assumes you have a postcss.config.js for Tailwind setup
 		}),
-		vitePreprocess({
-			style: {
-				postcss: {
-					plugins: [tailwindcss()]
-				}
-			}
-		})
+		vitePreprocess()
 	],
 
 	kit: {
