@@ -19,11 +19,10 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter()
-		// No need to set the paths.base for Vercel unless you're doing something unusual
-		// paths: {
-		//   base: process.env.NODE_ENV === 'production' ? '/yourbasepath' : ''
-		// },
+		adapter: adapter({
+			edge: false,
+			split: false
+		})
 	}
 };
 
