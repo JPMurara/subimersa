@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
 import tailwindcss from 'tailwindcss';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
@@ -19,11 +19,10 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter()
-		// No need to set the paths.base for Vercel unless you're doing something unusual
-		// paths: {
-		//   base: process.env.NODE_ENV === 'production' ? '/yourbasepath' : ''
-		// },
+		adapter: adapter({
+			edge: false,
+			split: false
+		})
 	}
 };
 
